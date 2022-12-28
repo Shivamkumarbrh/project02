@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-image: url('/project/project 12/img/3rd.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2017/04/27/06/34/roses-2264615_960_720.jpg');
     height: 90vh;
 }
 .third-content{
