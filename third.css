@@ -1,0 +1,77 @@
+.third-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/project/project 12/img/3rd.jpg');
+    height: 90vh;
+}
+.third-content{
+    text-align: center;
+    color: yellow;
+    font-size: 2rem;
+}
+.third-content h1{
+    padding: 30px 0;
+}
+.fourth-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color:#ffdddd;
+    justify-content: center;
+    align-items: center;
+}
+.fourth-content{
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}
+.fourth-content h2{
+    padding: 50px 0px;
+    font-size: 32px;
+}
+.fourth-content img{
+    width: 100%;
+    border-radius: 10px;
+}
+.fourth-content li{
+    padding: 50px 0px;
+    width: 50%;
+    float: left;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    list-style: none;
+    box-sizing: border-box;
+}
+.fourth-content p{
+    padding: 10px 0px;
+    font-size: 1rem;
+}
+.fifth-container{
+    padding: 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: pink;
+}
+.fifth-container p{
+    padding: 25px 0px;
+}
+.fifth-container button{
+    padding: 20px 20px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(226, 104, 124);
+}
+@media screen and (min-width:200px) and (max-width:992px) {
+    .fourth-content{
+        width: 95vw;
+       
+    }
+}
