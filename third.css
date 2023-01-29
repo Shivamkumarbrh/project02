@@ -66,8 +66,15 @@
     font-size: 1rem;
     color: white;
     border: none;
+    transition: all 1s;
     border-radius: 5px;
     background-color: rgb(226, 104, 124);
+    border: none;
+}
+.fifth-container button:hover{
+color: rgb(226, 104, 124);
+background-color: white;
+cursor: pointer;
 }
 @media screen and (min-width:200px) and (max-width:992px) {
     .fourth-content{
